@@ -1,0 +1,42 @@
+The process of find deplicate with a record set should be a matter of
+determining whether the posiblity of one record being a different version of
+another record. If the posibility is great enough both record should be merged
+creating a new and third superior record.
+
+possible fields
+
+text
+number
+boolean
+email
+mobile number
+external indexes (alphanumerical)
+lastname
+street address/postbox
+first name
+country
+postcode
+grid reference
+
+invalid format error, not in standardised format
+minor error, single digit and/or punctuation
+gross error, multiple digit
+absent error, missing/blank/empty
+alternative error, both correct but not in same context
+
+The problem is to colate all records into a data structure that allow for
+records to be added in a persistent manner where by near duplicate records
+are superseeded by newer ones so that their information is not lost but
+rather evolved.
+
+An evolutionary tree where branches can be made and closely
+related records can be tracked. The reduction in computating likeness by
+reducing comparative sample sized should also be inherit within
+the chosen data structure.
+
+Sameness should be a function of how close the
+a record is to another in the data structure and if too close then the
+records should be merged.
+
+A complete list of current records will be a list of all externally exposed
+records, not ancestor of any other record.
